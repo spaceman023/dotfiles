@@ -8,7 +8,7 @@ nnoremap <leader>t :NERDTree<CR>
 nnoremap U <C-R>
 nnoremap <Tab> :bnext<CR>
 nnoremap <leader>f :Prettier<CR>
-nnoremap <Space> <C-w>
+nnoremap s <C-w>
 "PLUGINS
 call plug#begin()
 Plug 'prettier/vim-prettier', { 'do': 'yarn install --frozen-lockfile --production' }

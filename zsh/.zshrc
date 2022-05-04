@@ -4,7 +4,7 @@ export PATH=$PATH:/Applications/Postgres.app/Contents/Versions/14/bin
 ZSH_THEME="agnoster"
 HYPHEN_INSENSITIVE="true"
 COMPLETION_WAITING_DOTS="true"
-plugins=(git zsh-autosuggestions zsh-z)
+plugins=(git zsh-z)
 neofetch
 source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
