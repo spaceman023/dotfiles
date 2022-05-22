@@ -10,6 +10,7 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
   alias ll="exa -la"
+  alias gpa="git add .;git commit -m \"lazy\";git push --force -u origin main"
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
