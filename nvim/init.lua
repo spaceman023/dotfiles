@@ -1,0 +1,6 @@
+require('plugins')
+require('remaps')
+require('settings')
+require("bufferline").setup({})
+require('nerdtree')
+require('cmpsetup')
