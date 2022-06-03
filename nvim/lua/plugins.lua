@@ -1,4 +1,3 @@
---plugins
 local Plug = vim.fn["plug#"]
 vim.call("plug#begin")
 Plug("ckipp01/stylua-nvim")
