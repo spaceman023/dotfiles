@@ -14,6 +14,7 @@ Plug("relastle/bluewery.vim")
 Plug("projekt0n/github-nvim-theme")
 Plug("morhetz/gruvbox")
 Plug("gosukiwi/vim-atom-dark")
+Plug("junegunn/seoul256.vim")
 --Telescope
 Plug("nvim-lua/plenary.nvim")
 Plug("nvim-telescope/telescope.nvim")

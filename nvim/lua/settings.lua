@@ -12,8 +12,8 @@ vim.cmd("set clipboard+=unnamedplus")
 -- Prettier Settings
 vim.cmd([[let g:prettier#config#tab_width = '2']])
 vim.cmd([[let g:prettier#config#use_tabs = 'false']])
-vim.cmd("colorscheme nightfox")
-vim.g.airline_theme = "minimalist"
+vim.cmd("colorscheme seoul256")
+vim.g.airline_theme = "seoul256"
 
 --Augroups
 vim.cmd([[
@@ -23,3 +23,6 @@ augroup remember_folds
   autocmd BufWinEnter *.* silent! loadview
 augroup END
 ]])
+--Golang Settings
+vim.cmd([[let g:go_highlight_extra_types = 0]])
+
