@@ -12,7 +12,6 @@ end
 vim.g.mapleader = ";"
 imap("jj", "<Esc>")
 imap("zz", "<Esc>:update<cr>gi")
-nmap("<leader>k", ":LspHover<CR>")
 nmap("zz", ":update<cr>")
 nmap("<leader>t", ":NERDTree<CR>")
 nmap("U", "<C-R>")
