@@ -12,8 +12,9 @@ vim.cmd("set clipboard+=unnamedplus")
 -- Prettier Settings
 vim.cmd([[let g:prettier#config#tab_width = '2']])
 vim.cmd([[let g:prettier#config#use_tabs = 'false']])
-vim.cmd("colorscheme seoul256")
-vim.g.airline_theme = "seoul256"
+vim.cmd("colorscheme OceanicNext")
+vim.cmd("syntax enable")
+vim.g.airline_theme = "oceanicnext"
 
 --Augroups
 vim.cmd([[

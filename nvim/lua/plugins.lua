@@ -15,6 +15,7 @@ Plug("projekt0n/github-nvim-theme")
 Plug("morhetz/gruvbox")
 Plug("gosukiwi/vim-atom-dark")
 Plug("junegunn/seoul256.vim")
+Plug("mhartington/oceanic-next")
 --Telescope
 Plug("nvim-lua/plenary.nvim")
 Plug("nvim-telescope/telescope.nvim")
@@ -31,4 +32,3 @@ Plug("hrsh7th/vim-vsnip")
 --Language Specific
 Plug("fatih/vim-go", { ["do"] = vim.fn[":GoUpdateBinaries"] })
 vim.call("plug#end")
-
