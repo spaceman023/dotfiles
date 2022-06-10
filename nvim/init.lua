@@ -1,7 +1,7 @@
 require('plugins')
 require('remaps')
 require('settings')
-require("bufferline").setup({})
+require("bufferline-config")
 require('nerdtree')
 require('cmpsetup')
 require('treesitter')
