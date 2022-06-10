@@ -15,7 +15,7 @@ vim.cmd([[let g:prettier#config#use_tabs = 'false']])
 vim.cmd("colorscheme OceanicNext")
 vim.cmd("syntax enable")
 vim.g.airline_theme = "oceanicnext"
-
+vim.opt.termguicolors = true
 --Augroups
 vim.cmd([[
 augroup remember_folds
@@ -26,4 +26,3 @@ augroup END
 ]])
 --Golang Settings
 vim.cmd([[let g:go_highlight_extra_types = 0]])
-
